@@ -1,4 +1,7 @@
 import 'package:dicoding_flutter_beginner/src/basic_widget_02/example_navigation_firstscreen.dart';
+import 'package:dicoding_flutter_beginner/src/basic_widget_02/example_responsive_layoutbuilder.dart';
+import 'package:dicoding_flutter_beginner/src/basic_widget_02/example_responsive_mediaquery.dart';
+import 'package:dicoding_flutter_beginner/src/basic_widget_02/example_responsive_page.dart';
 
 import 'package:flutter/material.dart';
 
@@ -17,7 +20,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const ExampleNavigationFirstScreen(),
+      home: const ExampleResponsivePage(),
     );
   }
 }
