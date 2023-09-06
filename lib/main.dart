@@ -2,6 +2,8 @@ import 'package:dicoding_flutter_beginner/src/basic_widget_02/example_navigation
 import 'package:dicoding_flutter_beginner/src/basic_widget_02/example_responsive_layoutbuilder.dart';
 import 'package:dicoding_flutter_beginner/src/basic_widget_02/example_responsive_mediaquery.dart';
 import 'package:dicoding_flutter_beginner/src/basic_widget_02/example_responsive_page.dart';
+import 'package:dicoding_flutter_beginner/src/codelabs/codelabs_third_detail_page.dart';
+import 'package:dicoding_flutter_beginner/src/codelabs/codelabs_third_main_page.dart';
 
 import 'package:flutter/material.dart';
 
@@ -15,12 +17,13 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const ExampleResponsivePage(),
+      home: const CodelabsThirdMainPage(),
     );
   }
 }
