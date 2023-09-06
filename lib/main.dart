@@ -2,6 +2,7 @@ import 'package:dicoding_flutter_beginner/src/basic_widget_02/example_navigation
 import 'package:dicoding_flutter_beginner/src/basic_widget_02/example_responsive_layoutbuilder.dart';
 import 'package:dicoding_flutter_beginner/src/basic_widget_02/example_responsive_mediaquery.dart';
 import 'package:dicoding_flutter_beginner/src/basic_widget_02/example_responsive_page.dart';
+import 'package:dicoding_flutter_beginner/src/codelabs/codelabs_fourth_main_page.dart';
 import 'package:dicoding_flutter_beginner/src/codelabs/codelabs_third_detail_page.dart';
 import 'package:dicoding_flutter_beginner/src/codelabs/codelabs_third_main_page.dart';
 
@@ -23,7 +24,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const CodelabsThirdMainPage(),
+      home: const CodelabsFourthMainPage(),
     );
   }
 }
